@@ -38,3 +38,6 @@ print(f"The result of modular division is {modular_div}")
 fruits = ['apples', 'bananas', 'grapes', 'strawberries', 'mangoes', 'pineapples', 'a']
 new_list = fruits[2] # Indexing is done using square brackets after variable name and index inside it
 sliced_list = fruits[1:5] # Slicing is done using square brackets with 2 values separated by colon. The first value is the starting value and the second value is the ending value + 1.
+
+
+
