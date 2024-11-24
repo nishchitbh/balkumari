@@ -12,7 +12,7 @@ my_list.append("f")  # Append adds 'f' to the end of the list
 print(my_list)  # ['a', 'b', 'c', 'd', 'e', 'f']
 
 # Removing an element by its index
-my_list.pop(0)  # Removes the first element ('a')
+my_list.pop()  # Removes the first element ('a')
 print(my_list)  # ['b', 'c', 'd', 'e', 'f']
 
 # Extending the list by adding elements of another list
@@ -44,7 +44,7 @@ print(my_list)  # ['tennis', 'football', 'cricket', 'basketball']
 # Working with dictionaries
 student = {
     "name": "abhinav", 
-    "number": "23445464", 
+    "number": 23445464, 
     "address": "kathmandu", 
     "subjects": ["physics", "math", "english"]
 }  # A dictionary representing a student
